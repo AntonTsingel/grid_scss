@@ -2,7 +2,7 @@
 @import "helpers/mixins";
  
  
- .container {
+ .grid {
   max-width: $grid__bp-md * 1px;
   margin: 0 auto;
   &--fluid {
@@ -19,7 +19,7 @@
   }
 }
 
-.container {
+.grid {
   background-color: #88d8b0;
   padding: 10px;
   box-sizing: border-box;
@@ -31,7 +31,7 @@
   }
 
   @at-root {
-    [class*='container__col-'] {
+    [class*='grid__col-'] {
       &.higher {
         min-height: 60px;
       }
