@@ -1,0 +1,21 @@
+{
+  "name": "grid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "style": "del main.css main.css.map && npx sass main.scss main.css",
+    "server": "node server.js",
+    "dev": "npm run style && npm run server",
+    "start": "npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "del-cli": "^3.0.0",
+    "node-static": "^0.7.11",
+    "sass": "^1.23.6"
+  }
+}

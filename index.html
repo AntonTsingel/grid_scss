@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container__row">
+            <div class="container__col-sm-21 container__col-md-4 container__col-lg-21">21lg, 4md, 21sm</div>
+            <div class="container__col-sm-15 container__col-md-4 container__col-lg-15">15lg, 4md, 15sm</div>
+            <div class="container__col-sm-9 container__col-md-4 container__col-lg-9">9lg, 4md, 9sm</div>
+        </div>
+    </div>
+    
+    <div class="container--fluid">
+        <div class="container__row">
+            <div class="container__col-sm-21 container__col-md-6 higher">6md, 21sm</div>
+            <div class="container__col-sm-21 container__col-md-6 higher">
+                <div class="container__row nested">
+                    <div class="container__col-sm-21 container__col-md-4 container__col-lg-21">21lg, 4md, 21sm</div>
+                    <div class="container__col-sm-15 container__col-md-4 container__col-lg-15">15lg, 4md, 15sm</div>
+                    <div class="container__col-sm-9 container__col-md-4 container__col-lg-9">9lg, 4md, 9sm</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
